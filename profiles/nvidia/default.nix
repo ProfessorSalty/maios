@@ -5,9 +5,11 @@
     ../../modules/core
   ];
   # Enable GPU Drivers
-  drivers.amdgpu.enable = false;
-  drivers.nvidia.enable = true;
-  drivers.nvidia-prime.enable = false;
-  drivers.intel.enable = false;
+  drivers = {
+    amdgpu.enable = false;
+    nvidia.enable = true;
+    nvidia-prime.enable = false;
+    intel.enable = false;
+  };
   vm.guest-services.enable = false;
 }

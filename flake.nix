@@ -1,5 +1,5 @@
 {
-  description = "ZaneyOS";
+  description = "MaiOS";
 
   inputs = {
     home-manager = {
@@ -68,6 +68,16 @@
           inherit profile;
         };
         modules = [./profiles/vm];
+      };
+      arm64 = nixpkgs.lib.nixosSystem {
+        inherit system;
+        specialArgs = {
+          inherit inputs;
+          inherit username;
+          inherit host;
+          inherit profile;
+        };
+        modules = [./profiles/arm];
       };
     };
   };

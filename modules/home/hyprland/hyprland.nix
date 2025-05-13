@@ -74,6 +74,7 @@ in {
           natural_scroll = false;
           disable_while_typing = true;
           scroll_factor = 0.8;
+          tap-to-click = false;
         };
       };
 
