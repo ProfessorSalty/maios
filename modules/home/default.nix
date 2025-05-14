@@ -10,26 +10,28 @@ in {
     ./emoji.nix
     ./fastfetch
     ./gh.nix
-    ./ghostty.nix
     ./git.nix
     ./gtk.nix
     ./htop.nix
     ./hyprland
     ./kitty.nix
+    ./lmms
+    ./localsend.nix
     ./nvf.nix
-    ./rofi
     ./qt.nix
+    ./rofi
     ./scripts
     ./starship.nix
     ./stylix.nix
     ./swappy.nix
     ./swaync.nix
     ./virtmanager.nix
-    waybarChoice
     ./wlogout
     ./xdg.nix
     ./yazi
     ./zoxide.nix
     ./zsh
+    ./vlc
+    waybarChoice
   ];
 }
