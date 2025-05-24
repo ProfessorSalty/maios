@@ -1,0 +1,7 @@
+- [Keybase](keybase.io)?
+- setup gpg key
+- celluloid vs mpv
+- [Cage](https://github.com/cage-kiosk/cage)
+- [Station](https://github.com/getstation/desktop-app)
+- lms vs ampache vs advanced-airsonic
+- listenbrainz.org
